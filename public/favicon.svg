@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+    <linearGradient id="docGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F3F4F6" />
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background App Icon Badge -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)" />
+
+  <!-- Document Body -->
+  <g filter="url(#shadow)">
+    <path d="M 150 110 L 290 110 L 360 180 L 360 390 Q 360 406 344 406 L 150 406 Q 134 406 134 390 L 134 126 Q 134 110 150 110 Z" fill="url(#docGrad)" />
+    <!-- Folded Corner -->
+    <path d="M 290 110 L 360 180 L 306 180 Q 290 180 290 164 Z" fill="#C7D2FE" />
+  </g>
+
+  <!-- Content Lines on Document -->
+  <rect x="168" y="210" width="135" height="18" rx="9" fill="#4F46E5" />
+  <rect x="168" y="246" width="95" height="18" rx="9" fill="#818CF8" />
+  <rect x="168" y="282" width="118" height="18" rx="9" fill="#818CF8" />
+
+  <!-- PDF Red Pill Badge -->
+  <rect x="168" y="324" width="76" height="38" rx="10" fill="#EF4444" />
+  <text x="206" y="349" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle">PDF</text>
+
+  <!-- Oracle AI Sparkle Stars -->
+  <path d="M 335 250 Q 335 285 370 285 Q 335 285 335 320 Q 335 285 300 285 Q 335 285 335 250 Z" fill="url(#sparkleGrad)" />
+  <path d="M 370 135 Q 370 152 387 152 Q 370 152 370 169 Q 370 152 353 152 Q 370 152 370 135 Z" fill="#FDE047" />
+</svg>
